@@ -14,6 +14,18 @@ public class BoundaryPrendreEtal {
 
 	public void prendreEtal(String nomVendeur) {
 		//TODO a completer
+		if (!controlPrendreEtal.verifierIdentite(nomVendeur)) {
+			
+		}else {
+			if (!controlPrendreEtal.resteEtals()) {
+				
+			} else {
+				if (numeroEtal!=-1) {
+					
+				}
+
+			}
+		}
 	}
 
 	private void installerVendeur(String nomVendeur) {
